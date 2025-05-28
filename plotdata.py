@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the synthetic spike data
-df = pd.read_csv('data/spike_data.csv')
+df = pd.read_csv('data\spike_data2.csv')
 
 # Compute the timing difference
 df['delta_t'] = df['time_B_s'] - df['time_A_s']
